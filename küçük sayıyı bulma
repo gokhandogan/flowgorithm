@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="g&#246;khan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-25 07:15:52 &#214;S"/>
+        <attribute name="created" value="Z8O2a2hhbjtERVNLVE9QLU5JVVRFOVA7MjAxOS0xMC0yNTswNzoxMTozMSDDllM7MzI5Mw=="/>
+        <attribute name="edited" value="Z8O2a2hhbjtERVNLVE9QLU5JVVRFOVA7MjAxOS0xMC0yNTswNzoxNTo1MiDDllM7MTszNDA4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <output expression="&quot;a say&#305;s&#305;n&#305; giriniz.&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;b say&#305;s&#305;n&#305; giriniz.&quot;" newline="True"/>
+            <input variable="b"/>
+            <if expression="a==b">
+                <then>
+                    <output expression="&quot;a say&#305;s&#305; b say&#305;s&#305;na e&#351;ittir.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="a&lt;b">
+                        <then>
+                            <output expression="&quot;a say&#305;s&#305; b say&#305;s&#305;ndan k&#252;&#231;&#252;kt&#252;r.&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;b say&#305;s&#305; a say&#305;s&#305;ndan k&#252;&#231;&#252;kt&#252;r.&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
