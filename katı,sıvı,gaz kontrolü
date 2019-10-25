@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="g&#246;khan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-25 07:10:26 &#214;S"/>
+        <attribute name="created" value="Z8O2a2hhbjtERVNLVE9QLU5JVVRFOVA7MjAxOS0xMC0yNTswNjo1MDowMCDDllM7MzI5MQ=="/>
+        <attribute name="edited" value="Z8O2a2hhbjtERVNLVE9QLU5JVVRFOVA7MjAxOS0xMC0yNTswNzoxMDoyNiDDllM7MTszNDA0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sicaklik" type="Integer" array="False" size=""/>
+            <output expression="&quot;s&#305;cakl&#305;k de&#287;erini giriniz.&quot;" newline="True"/>
+            <input variable="sicaklik"/>
+            <if expression="sicaklik&gt;100">
+                <then>
+                    <output expression="&quot;su gaz halindedir.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="sicaklik&gt;0">
+                        <then>
+                            <output expression="&quot;su s&#305;v&#305; haldedir.&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;su kat&#305; haldedir.&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
